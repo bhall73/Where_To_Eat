@@ -8,13 +8,41 @@
     <h1 style="font-family:'Courier New', Courier, monospace; font-size: 70px" >Where To Eat?</h1>
     <p class="subtitle is-4">Restaurant Chooser - For Indecisive Eaters!</p>
 </section>
+<section class="box has-text-centered" style="background-color: #17b9a4">
+    <h1 style="font-family:'Courier New', Courier, monospace; font-size: 40px" >But First... Some Questions!</h1>
+    <div class="column">
+        <!--Where To Eat Questions-->
+        <form class="box" id="questionForm">
+            <div class="field">
+                <label for="locationQuestion" class="label">Where Are You?</label>
+                <div class="select is-info">
+                    <select>
+                        <option>?</option>
+                    </select>
+                </div>
+            </div>
+            <div class="field">   
+                <label for="pass1" class="label">What Kind of Food?</label>                     
+                <div class="control">
+                    <input class="input" type="password" id="pass1" placeholder="Enter Password" name="pass1">
+                </div>
+            </div>
+            <!--Login Button-->
+            <div class="field">
+                <div class="control">
+                    <button class="button is-dark is-fullwidth" type="submit">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
 <section class="section" style="background-color: #7499aa">
     <div class="container">
         <div class="columns">
             <div class="column">
-                <h1 style="font-family:'Courier New', Courier, monospace" class="title has-text-centered">Login</h1>
-                <!--Login Form-->
-                <form class="box" id="loginForm" action="app.html">
+                <h1 style="font-family:'Courier New', Courier, monospace" class="title has-text-centered">Add Restaurants</h1>
+                <!--Add Restaurants-->
+                <form class="box" id="loginForm">
                     <div class="field">
                         <label for="user1" class="label">Username</label>
                         <div class="control">
@@ -30,14 +58,14 @@
                     <!--Login Button-->
                     <div class="field">
                         <div class="control">
-                            <button class="button is-dark is-fullwidth" type="submit" >Login</button>
+                            <button class="button is-dark is-fullwidth" type="submit">Login</button>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="column">
-                <h1 style="font-family:'Courier New', Courier, monospace" class="title has-text-centered">Sign Up</h1>
-                <!--Sign Up Form-->
+                <h1 style="font-family:'Courier New', Courier, monospace" class="title has-text-centered">Current Restaurants</h1>
+                <!--Current Restaurants-->
                 <form id="signup" class="box" >
                     <div class="field">
                         <label class="label" for="user">Username</label>
