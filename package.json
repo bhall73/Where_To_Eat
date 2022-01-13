@@ -1,0 +1,26 @@
+{
+  "name": "where_to_eat",
+  "version": "1.0.0",
+  "description": "Where To Eat Application",
+  "main": "game.js",
+  "scripts": {
+    "client": "npx browser-sync start -sw",
+    "server": "node server.js",
+    "start": "concurrently --kill-others \"npm run client\" \"npm run server\""
+  },
+  "proxy": "http://localhost:8080",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhall73/Where_To_Eat.git"
+  },
+  "author": "bhall73",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhall73/Where_To_Eat/issues"
+  },
+  "homepage": "https://github.com/bhall73/Where_To_Eat#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "bulma": "^0.9.3"
+  }
+}
