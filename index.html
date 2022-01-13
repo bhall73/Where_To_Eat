@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>Where To Eat?</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+</head>
+<body>
+<section style="background-color: rgb(175, 238, 238)" class="box has-text-centered">
+    <h1 style="font-family:'Courier New', Courier, monospace; font-size: 70px" >Where To Eat?</h1>
+    <p class="subtitle is-4">Restaurant Chooser - For Indecisive Eaters!</p>
+</section>
+<section class="section" style="background-color: #7499aa">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h1 style="font-family:'Courier New', Courier, monospace" class="title has-text-centered">Login</h1>
+                <!--Login Form-->
+                <form class="box" id="loginForm">
+                    <div class="field">
+                        <label for="user1" class="label">Username</label>
+                        <div class="control">
+                            <input id = "user1" class="input" type="text" placeholder="Enter Username" name="user1">
+                        </div>
+                    </div>
+                    <div class="field">   
+                        <label for="pass1" class="label">Password</label>                     
+                        <div class="control">
+                            <input class="input" type="password" id="pass1" placeholder="Enter Password" name="pass1">
+                        </div>
+                    </div>
+                    <!--Login Button-->
+                    <div class="field">
+                        <div class="control">
+                            <button class="button is-dark is-fullwidth" type="submit">Login</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="column">
+                <h1 style="font-family:'Courier New', Courier, monospace" class="title has-text-centered">Sign Up</h1>
+                <!--Sign Up Form-->
+                <form id="signup" class="box" >
+                    <div class="field">
+                        <label class="label" for="user">Username</label>
+                        <div class="control">
+                            <input class="input" type="text" id="user" placeholder="Enter Username" name="username">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="pass" class="label" >Password</label>
+                        <div class="control">
+                            <input id="pass" class="input" type="password" placeholder="Enter Password" name="password">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="email" class="label" >Email</label>
+                        <div class="control">
+                            <input id="email" class="input" type="text" placeholder="Enter Email">
+                        </div>
+                    </div>
+                    <!--Sign Up Button-->
+                    <div class="field">
+                        <div class="control">
+                            <button class="button is-dark is-fullwidth" type="submit">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<section>
+</body>
+</html>
