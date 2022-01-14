@@ -3,6 +3,8 @@
     <title>Shilly-Shally Eats</title>
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
     <script src="forms.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
 </head>
 <body>
 <section style="background-color: rgb(175, 238, 238)" class="box has-text-centered">
@@ -15,7 +17,7 @@
             <div class="column">
                 <h1 style="font-family:'Courier New', Courier, monospace" class="title has-text-centered">Login</h1>
                 <!--Login Form-->
-                <form class="box" id="loginForm" action="app.html">
+                <form class="box" id="loginForm">
                     <div class="field">
                         <label for="user1" class="label">Username</label>
                         <div class="control">
@@ -31,7 +33,7 @@
                     <!--Login Button-->
                     <div class="field">
                         <div class="control">
-                            <button class="button is-dark is-fullwidth" type="submit" >Login</button>
+                            <button class="button is-dark is-fullwidth" type="submit">Login</button>
                         </div>
                     </div>
                 </form>
