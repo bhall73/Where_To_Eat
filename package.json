@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/bhall73/Where_To_Eat#readme",
   "dependencies": {
+    "better-sqlite3": "^7.4.6",
     "browser-sync": "^2.27.7",
     "bulma": "^0.9.3"
   }

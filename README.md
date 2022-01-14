@@ -5,6 +5,7 @@
 npm init
 npm install browser-sync
 npm install bulma
+npm install better-sqlite3
 
 # Required Dependencies
 
